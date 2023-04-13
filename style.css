@@ -3,12 +3,19 @@
     padding: 0;
 }
 .cabecalho{
-    background-color: escolha uma cor;
-    color: escolha uma cor;
-    font-size: tamanho de fonte em px;
+    background-color: #008E97;
+    color: black;
+    font-size: 30px;
     display: flex;
     justify-content: baseline;
+    align-items: center;
 }
 .cabecalho-imagem{
-    width: 10%;
-    height: 10%;
+    width: 5%;
+    height: 5%;
+}
+
+.cabecalho-itens{
+    display: inline-block;
+    margin: 50px 60px;
+}
